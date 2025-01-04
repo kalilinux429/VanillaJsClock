@@ -25,7 +25,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './src/index.html', // Source HTML file
+            template: './src/Index.html', // Source HTML file
             minify: { // Minify HTML for production
                 removeComments: true,
                 collapseWhitespace: true,
